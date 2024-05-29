@@ -13,12 +13,12 @@ i{
     color: $white-normal;
 }
 
-.header-incos{
+.header-icons{
     display: flex;
     gap: 14px;
 }
 
-.header-incos a:hover{
+.header-icons a:hover{
     i{
         color: $red-dark;
     }

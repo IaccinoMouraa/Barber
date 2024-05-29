@@ -19,12 +19,12 @@ i {
   color: #fff;
 }
 
-.header-incos {
+.header-icons {
   display: flex;
   gap: 14px;
 }
 
-.header-incos a:hover i {
+.header-icons a:hover i {
   color: #b42b2b;
 }
 
