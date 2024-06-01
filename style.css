@@ -166,6 +166,23 @@ i {
     font-size: 12px;
   }
 }
+.about {
+  background-color: #06121e;
+  overflow: hidden;
+  color: #fff;
+}
+
+.about-content {
+  display: flex;
+}
+.about-content img {
+  max-width: 570px;
+}
+
+.about-content div {
+  flex: 1;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
