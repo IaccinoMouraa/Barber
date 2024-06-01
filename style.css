@@ -174,13 +174,11 @@ i {
 
 .about-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about-content img {
   max-width: 570px;
-}
-
-.about-content div {
-  flex: 1;
 }
 
 body {
