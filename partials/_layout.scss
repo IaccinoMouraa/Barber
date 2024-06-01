@@ -2,6 +2,7 @@
 .container {
     max-width: 1060px;
     margin: 0 auto;
+    padding: 0 8px;
 }
 
 // BG HOME
@@ -62,3 +63,46 @@
     font-weight: 600;
     margin: 14px 0;
 }
+
+.button-contact:hover{
+    animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.07);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .here{
+        min-height: 60vh;
+
+        h1{
+            font-size: 34px;
+            padding: 0 14px;
+            width: 100%;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .hero h1{
+        font-size: 24px;
+    }
+
+    .hero p{
+        font-size: 12px;
+    }
+}
+
+//-------------------------------
+
+// 
