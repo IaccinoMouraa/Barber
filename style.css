@@ -176,9 +176,15 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 14px;
+  padding: 34px 14px 64px 14px;
 }
 .about-content img {
   max-width: 570px;
+}
+
+.about-content {
+  flex: 1;
 }
 
 body {
