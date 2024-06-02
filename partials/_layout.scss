@@ -127,3 +127,22 @@
 .about-content {
     flex: 1;
 }
+
+.about-description {
+    h2{
+        font-size: 38px;
+        margin-bottom: 24px;
+    }
+
+    p{
+        margin-bottom: 14px;
+        line-height: 150%;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .about-content{
+        flex-direction: column;
+    }
+}
+//-----------------------------------------------
